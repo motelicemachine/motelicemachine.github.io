@@ -18,14 +18,14 @@ permalink:     pretty
 defaults:
   -
     scope:
-      path: "news"
-      type: "posts"
+      path: ""
+      type: "post"
     values:
       layout: "post"
       categories: "news"
   -
     scope:
       path: ""
-      type: "pages"
+      type: "page"
     values:
       layout: "page"
