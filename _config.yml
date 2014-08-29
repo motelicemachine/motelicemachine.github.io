@@ -19,13 +19,13 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: "post"
     values:
       layout: "post"
       categories: "news"
   -
     scope:
       path: ""
-      type: "pages"
+      type: "page"
     values:
       layout: "page"
