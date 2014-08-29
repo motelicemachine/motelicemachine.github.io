@@ -18,7 +18,7 @@ permalink:     pretty
 defaults:
   -
     scope:
-      path: ""
+      path: "news"
       type: "posts"
     values:
       layout: "post"
