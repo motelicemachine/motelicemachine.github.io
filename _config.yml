@@ -1,6 +1,6 @@
 # Site settings
 title: Ryan Flynt and the Motel Ice Machine
-email: your-email@domain.com
+email: ryaneflynt@gmail.com
 description: Motel Ice Machine is an Americana band from Birmingham, Alabama blending honkytonk guitars and pedal steel with driving upright slap bass and blues harmonica.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://motelicemachine.github.io" # the base hostname & protocol for your site
