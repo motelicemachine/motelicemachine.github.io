@@ -22,6 +22,10 @@ body {
     background-color: $background-color;
 }
 
+h1, h2, h3, nav {
+  font-family: $title-font-family;
+  color: $title-color;
+}
 
 
 /**
@@ -88,11 +92,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $link-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $link-color;
     }
 
     &:hover {
@@ -153,8 +157,10 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    box-sizing: border-box;
+    width: 980px;
+/*     max-width: -webkit-calc(800px - (#{\$spacing-unit} * 2));
+max-width:         calc(800px - (#{\$spacing-unit} * 2)); */
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -162,12 +168,20 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$spacing-unit}));
-        max-width:         calc(800px - (#{$spacing-unit}));
+
+        /* max-width: -webkit-calc(800px - (#{\$spacing-unit}));
+        max-width:         calc(800px - (#{\$spacing-unit})); */
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
 }
+
+
+aside {
+  width: 220px;
+  float: right;
+}
+
 
 
 
