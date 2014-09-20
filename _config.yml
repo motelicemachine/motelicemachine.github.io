@@ -8,7 +8,7 @@ url: "http://motelicemachine.github.io" # the base hostname & protocol for your 
 github_username:  motelicemachine
 
 # Slideshow
-main_image: mim farmers.jpg
+main_image: mimfarmers.jpg
 
 # Build settings
 markdown: kramdown
