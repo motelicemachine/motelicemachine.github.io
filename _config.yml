@@ -7,6 +7,8 @@ url: "http://motelicemachine.github.io" # the base hostname & protocol for your 
 # twitter_username: jekyllrb
 github_username:  motelicemachine
 
+# Slideshow
+main_image: 3-680x360.jpg
 
 # Build settings
 markdown: kramdown
